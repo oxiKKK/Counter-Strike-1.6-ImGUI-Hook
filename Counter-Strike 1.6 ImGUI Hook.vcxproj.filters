@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CCodeMeasurement.cpp">
+      <Filter>Code measurement</Filter>
+    </ClCompile>
+    <ClCompile Include="CImGUI.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\imgui.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\imgui_demo.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\imgui_draw.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\imgui_tables.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\imgui_widgets.cpp">
+      <Filter>3rdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\impl\imgui_impl_win32.cpp">
+      <Filter>3rdParty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\imgui\impl\imgui_impl_opengl2.cpp">
+      <Filter>3rdParty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyboardEvent.cpp">
+      <Filter>KeyboardEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\soil\etc1_utils.c">
+      <Filter>3rdParty\soil</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\soil\image_DXT.c">
+      <Filter>3rdParty\soil</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\soil\image_helper.c">
+      <Filter>3rdParty\soil</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\soil\SOIL2.c">
+      <Filter>3rdParty\soil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="CCodeMeasurement.h">
+      <Filter>Code measurement</Filter>
+    </ClInclude>
+    <ClInclude Include="CImGUI.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\imconfig.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\imgui.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\imgui_internal.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\imstb_rectpack.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\imstb_textedit.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\imstb_truetype.h">
+      <Filter>3rdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\GL\eglew.h">
+      <Filter>3rdParty\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\GL\glew.h">
+      <Filter>3rdParty\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\GL\glxew.h">
+      <Filter>3rdParty\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\GL\wglew.h">
+      <Filter>3rdParty\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\impl\imgui_impl_win32.h">
+      <Filter>3rdParty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\imgui\impl\imgui_impl_opengl2.h">
+      <Filter>3rdParty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyboardEvent.h">
+      <Filter>KeyboardEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\detours\detours.h">
+      <Filter>3rdParty\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\etc1_utils.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\image_DXT.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\image_helper.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\jo_jpeg.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\pkm_helper.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\pvr_helper.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\SOIL2.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stb_image.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stb_image_write.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_DDS.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_DDS_c.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_ext.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_ext_c.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_pkm.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_pkm_c.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_pvr.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\soil\stbi_pvr_c.h">
+      <Filter>3rdParty\soil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Code measurement">
+      <UniqueIdentifier>{eb0a6e08-828c-4b80-a3cb-84ba8520d641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{64a9620a-1148-4701-9527-bf9dd1d2cfb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{4c6a2a10-5539-4e31-9a18-7d9bccda6029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\imgui">
+      <UniqueIdentifier>{5ce65735-2afa-4b5b-8bbe-7a51843583a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\detours">
+      <UniqueIdentifier>{feb13e91-7b1f-48ec-938a-4df637468bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\GL">
+      <UniqueIdentifier>{8ef15459-e1cf-4972-9394-98905c910e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\imgui\impl">
+      <UniqueIdentifier>{7b49d20c-8d23-4807-8777-d5459fabdedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyboardEvent">
+      <UniqueIdentifier>{ab72dbd7-8699-457a-9d11-9825945f512a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\soil">
+      <UniqueIdentifier>{bd63f9fb-515a-4feb-9175-4bf873010d93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="3rdParty\GL\glew32.lib">
+      <Filter>3rdParty\GL</Filter>
+    </Library>
+    <Library Include="3rdParty\detours\detours.lib">
+      <Filter>3rdParty\detours</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
